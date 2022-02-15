@@ -1,0 +1,22 @@
+{
+  "name": "wordle-2.0",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "build-css": "tailwind build src/styles.css -o public/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monatheoctocat/my_package.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monatheoctocat/my_package/issues"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.22"
+  },
+  "homepage": "https://github.com/monatheoctocat/my_package"
+}
