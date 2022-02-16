@@ -106,10 +106,21 @@ const deleteLetter = () => {
 const checkRow = () => {
 	const guess = guessRows[currentRow].join('')
 
-	if(currentTile === 5) {
+	if(currentTile > 4) {
 		console.log('guess is ' + guess + 'wordle is ' + wordle)
 		if(wordle==guess) {
 			showMessage('Magnificent!')
+			isGameOver = true
+		} else {
+			if(currentRow >= 5){
+				isGameOver = false
+				showMessage('Game Over')
+				return
+			}
+			if(currentRow < 5){
+				currentRow++
+				currentTile = 0
+			}
 		}
 	}
 }
