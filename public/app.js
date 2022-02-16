@@ -70,7 +70,7 @@ keys.forEach(key => {
 const handleClick = (letter) =>{
     console.log('clicked', letter)
     if(letter === '«') {
-        console.log("delete clicked")
+        deleteLetter()
         return
     }
 
@@ -92,3 +92,12 @@ const addLetter = (letter) =>{
     }
 }
 
+const deleteLetter = () => {
+    if(currentTile>0){
+        currentTile--
+        const tile = document.getElementById('guessRow-' + currentRow + '-tile-' + currentTile)
+        tile.textContent = ''
+        guessRows[currentRow][currentTile] = ''
+        tile.setAttribute('data', '')
+    }
+}
