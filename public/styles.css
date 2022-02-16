@@ -468,15 +468,79 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.h-10 {
-  height: 2.5rem;
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
-.w-10 {
-  width: 2.5rem;
+.flex {
+  display: flex;
 }
 
-.bg-slate-600 {
+.h-\[90vh\] {
+  height: 90vh;
+}
+
+.w-\[510px\] {
+  width: 510px;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-b-slate-600 {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(71 85 105 / var(--tw-border-opacity));
+}
+
+.bg-gray-800 {
   --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.key-container button {
+  width: 43px;
+  height: 43px;
+  border-radius: 4px;
+  border:none;
+  background-color: #818384;
+  margin: 4px;
+}
+
+.key-container button:nth-child(11){
+  margin-left: 30px;
+}
+
+.key-container button:nth-child(20),
+.key-container button:nth-child(28){
+  width: 68px;
 }
