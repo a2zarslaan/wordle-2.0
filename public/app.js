@@ -155,7 +155,7 @@ const flipTile = () => {
 	})
 
 	guess.forEach(guess => {
-		if(checkWordle.includes(guess.letter)){
+		if(checkWordle.includes(guess.letter)){ 
 			guess.color = 'yellow-overlay'
 			checkWordle = checkWordle.replace(guess.letter, '')
 		}
