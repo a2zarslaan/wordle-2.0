@@ -18,5 +18,11 @@
   "devDependencies": {
     "tailwindcss": "^3.0.22"
   },
-  "homepage": "https://github.com/monatheoctocat/my_package"
+  "homepage": "https://github.com/monatheoctocat/my_package",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
 }
