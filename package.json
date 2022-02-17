@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "build-css": "tailwind build src/styles.css -o public/styles.css --watch",
-    "start:backend": "nodemon --exec index.js"
+    "start:backend": "nodemon --exec index.js",
   },
   "repository": {
     "type": "git",
